@@ -1,4 +1,4 @@
-# butian-src-finder
+# butian src finder
 
 ## Description
 批量验证是否属于补天的公益src。
