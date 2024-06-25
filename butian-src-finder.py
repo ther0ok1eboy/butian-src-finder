@@ -45,7 +45,7 @@ def send_post_request(company_name):
         f"--{boundary}--\r\n"
     )
     multipart_data_bytes = multipart_data.encode('utf-8')
-    response = requests.post(url, headers=headers, cookies=cookies, data=multipart_data_bytes)
+    response = requests.post(url, headers = headers, cookies = cookies, data = multipart_data_bytes)
     return response
 
 # Read company names from a file and send POST requests
